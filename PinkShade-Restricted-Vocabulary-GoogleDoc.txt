@@ -1,0 +1,368 @@
+PinkShade - Restricted Vocabulary (updated 2026-10-07)
+
+Internal working list, not legal advice. Have Jonathan Atha and Gali Amir confirm before any word moves from restricted to allowed. The claim decides whether PinkShade is a medical device, not the film itself: generic wording keeps it an accessory; condition or symptom wording moves it toward the Avulux side.
+
+1. MEDICAL / DISEASE / TREATMENT CLAIMS
+Status: RED. Never use. Medical device in every market.
+
+Treatment and cure words:
+- treat
+- treats
+- treating
+- treatment
+- cure
+- curative
+- heal
+- heals
+- healing (standalone)
+- remedy
+- medicinal
+- therapy
+- therapeutic
+- prevent
+- prevents
+- prevention
+- alleviate
+- mitigate
+
+Clinical and diagnostic words:
+- diagnose
+- diagnostic
+- monitor a condition
+- clinical
+- clinical-grade
+- efficacy
+- indicated for
+- prescribe
+- prescription
+- dose
+- dosage
+- patient (for a customer)
+
+Symptom and condition words:
+- symptom
+- symptoms
+- symptom relief
+- relief (standalone)
+- relieves
+- disorder
+- condition
+- sufferers
+- suffering from
+- side effects
+- no side effects
+- complements your therapy or medication
+
+Named conditions and symptoms (as a claim, audience, hashtag or keyword):
+- photophobia
+- migraine
+- headache
+- light sensitivity
+- light-sensitivity disorder
+- glare sensitivity
+- depression
+- anxiety disorder
+- panic attacks
+- SAD / seasonal depression
+- PTSD
+- OCD
+- bipolar
+- ADHD / attention disorders
+- insomnia / sleep disorders
+- postpartum / baby blues
+- burnout (as something to recover from)
+- mental health (as a benefit)
+- mental illness
+
+Hebrew:
+- טיפול
+- מטפל ב…
+- מקל על…
+- תסמינים
+- הפרעה
+- מיגרנות
+- רגישות לאור
+- דיכאון
+- חרדה
+- הפרעת קשב
+- נדודי שינה
+
+What it would take to unlock: Only through medical-device authorization (FDA De Novo or PMA, CE mark under MDR, Israeli אמ"ר registration). Needs a pivotal clinical trial in a diagnosed population, a company entity, an adult sponsor, a regulatory consultant and insurance. Multiple years and millions. Only the exact cleared indication could then be claimed. Research framing ("we are researching how people who experience stress or low mood relate to colour and light") is still allowed.
+
+
+2A. MOOD AND FEELING: LIFESTYLE AND SENSORY WORDING
+Status: GREEN. Allowed now.
+
+Allowed:
+- see the world in a warmer light
+- tint your view
+- a small daily ritual
+- slow down and look around
+- colours you'll actually notice
+- everyday scenes that look like a postcard
+- rose-tinted glasses, for real
+- your golden hour, on demand
+- celebrate the small things
+- wellness ritual / routine (category label only, never a mechanism)
+- use "view", not "perspective"
+
+What it would take to unlock: Already allowed. Keep it about how things look, not how you feel. No sad-to-happy before/after imagery.
+
+
+2B. RELAXATION AND EVERYDAY STRESS
+Status: AMBER. Restricted until a product RCT exists.
+
+Restricted:
+- promotes relaxation
+- helps you relax
+- calming lens
+- soothes you
+- calmer-feeling
+- helps manage everyday stress
+- de-stress
+- destressing
+- stress relief
+- eases tension
+- unwind
+- wind down
+- restorative
+- recharge
+- supports focus
+- supports concentration
+
+What it would take to unlock: No regulator approval needed, but advertising law needs a randomized trial of PinkShade itself: pilot crossover RCT in about 40-60 healthy adults, active neutral-tint control, validated scale, pre-registered, with a university partner, ethics approval and an adult PI. Plus a lab optical report (ISO 12312-1) and counsel review of the final wording. Roughly several months. Never place focus or concentration claims near ADHD.
+
+
+2C. MOOD ENHANCEMENT (HEALTHY ADULTS)
+Status: AMBER-RED. Banned until study and counsel sign-off (2026-09-01 ban stays).
+
+Restricted:
+- mood enhancer
+- mood-enhancing
+- improve mood
+- improves mood
+- boost mood
+- mood-boosting
+- mood booster
+- brightens your mood
+- lifts your mood
+- uplift(ing) your mood
+- regulate mood
+- mood regulation
+- happiness
+- makes you happier
+- feel happier
+- happiness boost
+- brings you joy
+- feel more positive
+- feel-good lens
+- energizing
+- optimism boost
+- mood glasses / mood lens (a product name is a claim)
+
+What it would take to unlock: Same pilot RCT as 2B but with a validated mood scale (e.g. PANAS), plus replication, plus a written counsel opinion. In the US get an FDA Pre-Sub (free) or 513(g) first (about $4.3K small-business fee, 60-day answer) because "mood" is not on FDA's wellness examples. Roughly 6-12+ months. Safest eventual wording: "lifts your spirits".
+
+
+2D. EMOTIONAL-HEALTH GREY ZONE
+Status: RED for now.
+
+Restricted:
+- emotional wellbeing (as a claimed outcome)
+- self-care for your mind
+- supports your mental health
+- for low days
+- beat the winter blues
+- chase away the blues
+- calms your nerves
+- calms anxiety
+- anxiety relief
+- reduces anxiety
+- emotional balance
+- builds resilience
+- helps you cope
+- burnout recovery
+- calms your nervous system
+- lowers cortisol / stress hormones
+- light for your mind
+- mood light
+
+What it would take to unlock: Everything in 2C, plus a written classification opinion before any use (FDA Pre-Sub or 513(g); EU competent-authority opinion; written question to אמ"ר with the exact phrase). About 2-3 months on top of the study. Physiological claims also need biomarker evidence. Never in a depression- or anxiety-targeted campaign. Use "stress", not "anxiety".
+
+
+3. PROTECTIVE / CORRECTIVE / VISION-FUNCTION CLAIMS
+Status: Mixed. See lists.
+
+Allowed now:
+- adds warmth and vibrancy
+- richer, more saturated colours
+- a subtle warm / rose tint
+- softer, warmer-looking light
+- makes greens and warm tones stand out (must match measured curve)
+- ultra-thin optical film
+- clear or grey base film
+- applies to the glasses you already own
+- enhances contrast (conditional: generic only, no condition, no "relief", no "for sensitive eyes", numbers only with a lab report)
+- filters / 580-590 nm notch / VLT X% (spec facts in technical copy, with a lab report)
+
+Restricted:
+- protects
+- protection
+- shields your eyes
+- UV protection
+- UV-blocking
+- blocks UV
+- blue-light blocking
+- blocks light / filters light (as a functional claim)
+- reduces glare
+- reduces eye strain
+- screen fatigue
+- safe for driving
+- night driving
+- corrects
+- corrective
+- prescription-grade
+- improves vision
+- sharpens vision
+- vision enhancement
+- eye health
+
+What it would take to unlock: Protective claims (UV, blue light, glare, eye health): accredited-lab ISO 12312-1 testing plus compliance with the US sunglasses regime and EU PPE regulation. Weeks of lab work and a compliance review. Eye-strain claims: only with real test data (weak evidence, class-action exposure). Safe for driving: must pass the signal-recognition test first; the 580-590 nm notch sits on amber signals and may fail. Corrective claims: effectively closed.
+
+
+4. PSEUDOSCIENCE-ADJACENT / ALTERNATIVE-MEDICINE VOCABULARY
+Status: NEVER.
+
+Restricted:
+- chromotherapy
+- color therapy
+- light therapy
+- energy healing
+- healing energy
+- chakra
+- chakra-aligning
+- frequency healing
+- vibrational healing
+- vibrations (as a healing mechanism)
+- aura
+- holistic healing
+- healing (standalone)
+- serotonin / dopamine boost
+- אנרגיות (use sparingly)
+
+What it would take to unlock: No realistic path. Not regulated into permission; unsupported by rigorous trials and reputationally as risky as a false medical claim. "Light therapy" is a real clinical treatment, so it implies Section 1.
+
+
+5. DRUG-CLASS AND TREATMENT-EQUIVALENCE
+Status: NEVER. No approval unlocks it.
+
+Restricted:
+- antidepressant
+- natural / drug-free antidepressant
+- anti-anxiety
+- anxiolytic
+- mood stabilizer
+- stabilize
+- mood-stabilizing
+- mood elevator
+- mood-elevating
+- elevate mood
+- mood-altering
+- alters your mood
+- Prozac for your eyes
+- wearable SSRI
+- alternative to medication
+- reduce or replace your meds
+- therapy you can wear
+- works like therapy
+- prescription-strength
+- your daily dose of colour
+- נוגד דיכאון
+- זריקה / זריקת אופטימיות
+- מינון
+- טיפול שאפשר ללבוש
+
+What it would take to unlock: No permission path at any stage. A device can be indicated for a condition but is never an "antidepressant". "Replace your meds" is a patient-safety hazard even with data.
+
+
+6. OVERCLAIMING CREDIBILITY / FALSE AUTHORITY
+Status: None of these is true yet.
+
+Allowed now:
+- inspired by research on colour and light
+- research shows colour affects mood (background pages only, never next to the product)
+
+Restricted:
+- clinically proven
+- clinically tested
+- scientifically proven
+- science-backed
+- evidence-based
+- peer-reviewed (of the product)
+- guaranteed results
+- doctor-recommended
+- doctor-approved
+- psychologist-recommended
+- therapist-approved
+- medically reviewed
+- FDA-approved
+- FDA-cleared
+- FDA-registered
+- CE-certified
+- CE-marked
+- Ministry of Health approved
+- X% felt calmer (with no study)
+- studies on Zeiss / Futuremood lenses show…
+
+What it would take to unlock: Each phrase is unlocked only by actually having what it names: a completed trial (plus replication for "proven"), product-level evidence, a documented endorsement with written consent and disclosure of material connections (advisors Alon and Tal count), or a real CE / Ministry conformity assessment or registration. Never use "FDA-registered" to imply approval. Another company's data can't be borrowed.
+
+
+7. GENERAL REGULATORY-TRIGGER WORDS (USE ONLY IF YOU DELIBERATELY WANT THAT REGIME)
+Status: Restricted.
+
+Restricted:
+- device
+- medical device
+- equipment
+- ציוד רפואי
+- diagnose / monitor a condition
+- contact lens
+- lens (as a name for the product)
+- sunglasses
+
+Use instead:
+- adhesive optical film
+- overlay
+- sticker on glasses you already own
+
+What it would take to unlock: Not unlocked by evidence. Entering the regulated route is a decision (see Section 1). The statute lists עדשות מגע by name, and the old snap-on explanation is superseded.
+
+
+8. CONTEXT TRIGGERS (NOT WORDS, BUT THEY MAKE CLEAN COPY RESTRICTED)
+Status: Check every time you publish.
+
+Check:
+- Audience and keywords: ads or waitlist screening aimed at people with depression, anxiety or light sensitivity; #depression, #migraine, #anxietyrelief; paid keywords like "glasses for light sensitivity"
+- Channel: therapists' or neurologists' clinics; "ask your psychologist"
+- Imagery: sad-to-happy before/after
+- Names: CalmLens, Serotonin Shades, משקפי מצב רוח
+- Reposts and influencers: reposting or liking "this helped my migraines/depression"; paid or gifted creators speak for us
+- Investor portal and pitch: never call PinkShade a depression product on a public page
+- Disclaimers ("not intended to treat any disease") do not fix a restricted claim
+
+What it would take to unlock: Not a word list. Regulators read the overall impression (21 CFR 801.4), so audience, imagery and channel count as claims.
+
+
+SAFE REPLACEMENT VOCABULARY (USE NOW)
+- adds warmth and vibrancy
+- saturation
+- richer, more saturated colours
+- a subtle warm / rose tint
+- softer, warmer-looking light
+- golden-hour colour
+- see the world in a warmer light
+- tint your view
+- aesthetic / cosmetic accessory
+- a small daily ritual
+- wellness ritual (category label only)
+- enhances contrast (generic and measured only)
+- designed in Israel
