@@ -1,0 +1,162 @@
+[
+ {
+  "seq": 41,
+  "src_row": 69,
+  "company": "Raise3D",
+  "email": "inquiry@raise3d.com",
+  "lang": "en",
+  "day": 5
+ },
+ {
+  "seq": 42,
+  "src_row": 70,
+  "company": "Anycubic",
+  "email": "official@anycubic.com",
+  "lang": "en",
+  "day": 5
+ },
+ {
+  "seq": 43,
+  "src_row": 71,
+  "company": "Elegoo",
+  "email": "3dp@elegoo.com",
+  "lang": "en",
+  "day": 5
+ },
+ {
+  "seq": 44,
+  "src_row": 72,
+  "company": "Snapmaker",
+  "email": "support@snapmaker.com",
+  "lang": "en",
+  "day": 5
+ },
+ {
+  "seq": 45,
+  "src_row": 75,
+  "company": "Nano Dimension",
+  "email": "press@nano-di.com",
+  "lang": "he",
+  "day": 5
+ },
+ {
+  "seq": 46,
+  "src_row": 76,
+  "company": "Seeed Studio",
+  "email": "fusion@seeed.io",
+  "lang": "en",
+  "day": 5
+ },
+ {
+  "seq": 47,
+  "src_row": 77,
+  "company": "Eurocircuits",
+  "email": "euro@eurocircuits.com",
+  "lang": "en",
+  "day": 5
+ },
+ {
+  "seq": 48,
+  "src_row": 81,
+  "company": "Festo Israel",
+  "email": "info@il.festo.com",
+  "lang": "he",
+  "day": 5
+ },
+ {
+  "seq": 49,
+  "src_row": 82,
+  "company": "SMC Israel",
+  "email": "office@smc-il.com",
+  "lang": "he",
+  "day": 5
+ },
+ {
+  "seq": 50,
+  "src_row": 84,
+  "company": "ODrive Robotics",
+  "email": "info@odriverobotics.com",
+  "lang": "en",
+  "day": 5
+ },
+ {
+  "seq": 51,
+  "src_row": 87,
+  "company": "ABB Israel",
+  "email": "contact@il.abb.com",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 52,
+  "src_row": 105,
+  "company": "019 Mobile",
+  "email": "info@019mobile.co.il",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 53,
+  "src_row": 107,
+  "company": "Aroma Espresso Bar",
+  "email": "noamgd@aroma.co.il",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 54,
+  "src_row": 120,
+  "company": "UPS Israel",
+  "email": "wecare@ups.co.il",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 55,
+  "src_row": 123,
+  "company": "Trump Foundation",
+  "email": "Info@trump.org.il",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 56,
+  "src_row": 124,
+  "company": "Landa Labs / Landa Group",
+  "email": "team@landanano.com",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 57,
+  "src_row": 125,
+  "company": "UBTECH Robotics",
+  "email": "pr@ubtrobot.com",
+  "lang": "en",
+  "day": 6
+ },
+ {
+  "seq": 58,
+  "src_row": 127,
+  "company": "Duracell Israel (Diplomat)",
+  "email": "Info_dil@diplomat-global.com",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 59,
+  "src_row": 129,
+  "company": "Optibus",
+  "email": "press@optibus.com",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 60,
+  "src_row": 130,
+  "company": "Guesty",
+  "email": "press@guesty.com",
+  "lang": "he",
+  "day": 6
+ }
+]

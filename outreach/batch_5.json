@@ -1,0 +1,114 @@
+[
+ {
+  "seq": 81,
+  "src_row": 66,
+  "company": "Farnell / Newark",
+  "email": "heather.vana@avnet.com",
+  "lang": "en",
+  "day": 9
+ },
+ {
+  "seq": 82,
+  "src_row": 79,
+  "company": "Advanced Circuits",
+  "email": "sales@4pcb.com",
+  "lang": "en",
+  "day": 9
+ },
+ {
+  "seq": 83,
+  "src_row": 80,
+  "company": "Sunstone Circuits",
+  "email": "support@sunstone.com",
+  "lang": "en",
+  "day": 9
+ },
+ {
+  "seq": 84,
+  "src_row": 83,
+  "company": "Maxon Motor Israel",
+  "email": "sales.il@maxongroup.com",
+  "lang": "he",
+  "day": 9
+ },
+ {
+  "seq": 85,
+  "src_row": 104,
+  "company": "HOT Mobile",
+  "email": "info@hotmobile.co.il",
+  "lang": "he",
+  "day": 9
+ },
+ {
+  "seq": 86,
+  "src_row": 106,
+  "company": "Golan Telecom",
+  "email": "tpniyot@golantelecom.co.il",
+  "lang": "he",
+  "day": 9
+ },
+ {
+  "seq": 87,
+  "src_row": 114,
+  "company": "Rami Levy",
+  "email": "sherut@rami-levy.co.il",
+  "lang": "he",
+  "day": 9
+ },
+ {
+  "seq": 88,
+  "src_row": 115,
+  "company": "Victory Supermarkets",
+  "email": "sherut.victory@victory1.co.il",
+  "lang": "he",
+  "day": 9
+ },
+ {
+  "seq": 89,
+  "src_row": 116,
+  "company": "Yochananof",
+  "email": "service@yochananof.co.il",
+  "lang": "he",
+  "day": 9
+ },
+ {
+  "seq": 90,
+  "src_row": 119,
+  "company": "DHL Israel",
+  "email": "ilcs@dhl.com",
+  "lang": "he",
+  "day": 9
+ },
+ {
+  "seq": 91,
+  "src_row": 122,
+  "company": "Rashi Foundation",
+  "email": "rf@rashi.org.il",
+  "lang": "he",
+  "day": 10
+ },
+ {
+  "seq": 92,
+  "src_row": 133,
+  "company": "Global-E",
+  "email": "info@global-e.com",
+  "lang": "he",
+  "day": 10
+ },
+ {
+  "seq": 93,
+  "src_row": 146,
+  "company": "Chitubox",
+  "email": "support@chitubox.com",
+  "lang": "en",
+  "day": 10
+ },
+ {
+  "seq": 94,
+  "src_row": 147,
+  "company": "SainSmart",
+  "email": "support@sainsmart.com",
+  "lang": "en",
+  "day": 10
+ }
+]

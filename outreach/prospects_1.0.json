@@ -1,0 +1,754 @@
+[
+ {
+  "seq": 1,
+  "src_row": 2,
+  "company": "Wiz",
+  "email": "press@wiz.io",
+  "lang": "he",
+  "day": 1
+ },
+ {
+  "seq": 2,
+  "src_row": 4,
+  "company": "Fiverr",
+  "email": "press@fiverr.com",
+  "lang": "he",
+  "day": 1
+ },
+ {
+  "seq": 3,
+  "src_row": 5,
+  "company": "Payoneer",
+  "email": "community@payoneer.com",
+  "lang": "he",
+  "day": 1
+ },
+ {
+  "seq": 4,
+  "src_row": 6,
+  "company": "Riskified",
+  "email": "press@riskified.com",
+  "lang": "he",
+  "day": 1
+ },
+ {
+  "seq": 5,
+  "src_row": 7,
+  "company": "Melio",
+  "email": "press@melio.com",
+  "lang": "he",
+  "day": 1
+ },
+ {
+  "seq": 6,
+  "src_row": 8,
+  "company": "Snyk",
+  "email": "community@snyk.io",
+  "lang": "en",
+  "day": 1
+ },
+ {
+  "seq": 7,
+  "src_row": 10,
+  "company": "Similarweb",
+  "email": "press@similarweb.com",
+  "lang": "he",
+  "day": 1
+ },
+ {
+  "seq": 8,
+  "src_row": 11,
+  "company": "AppsFlyer",
+  "email": "press@appsflyer.com",
+  "lang": "he",
+  "day": 1
+ },
+ {
+  "seq": 9,
+  "src_row": 12,
+  "company": "Cato Networks",
+  "email": "press@catonetworks.com",
+  "lang": "he",
+  "day": 1
+ },
+ {
+  "seq": 10,
+  "src_row": 13,
+  "company": "SentinelOne",
+  "email": "press@sentinelone.com",
+  "lang": "he",
+  "day": 1
+ },
+ {
+  "seq": 11,
+  "src_row": 14,
+  "company": "CyberArk",
+  "email": "press@cyberark.com",
+  "lang": "he",
+  "day": 2
+ },
+ {
+  "seq": 12,
+  "src_row": 15,
+  "company": "Varonis",
+  "email": "pr@varonis.com",
+  "lang": "he",
+  "day": 2
+ },
+ {
+  "seq": 13,
+  "src_row": 16,
+  "company": "ironSource (Unity)",
+  "email": "info@ironsrc.com",
+  "lang": "he",
+  "day": 2
+ },
+ {
+  "seq": 14,
+  "src_row": 17,
+  "company": "Taboola",
+  "email": "press@taboola.com",
+  "lang": "he",
+  "day": 2
+ },
+ {
+  "seq": 15,
+  "src_row": 18,
+  "company": "Outbrain (Teads)",
+  "email": "ob-press@teads.com",
+  "lang": "he",
+  "day": 2
+ },
+ {
+  "seq": 16,
+  "src_row": 20,
+  "company": "Gong.io",
+  "email": "community@gong.io",
+  "lang": "he",
+  "day": 2
+ },
+ {
+  "seq": 17,
+  "src_row": 21,
+  "company": "Yotpo",
+  "email": "press@yotpo.com",
+  "lang": "he",
+  "day": 2
+ },
+ {
+  "seq": 18,
+  "src_row": 22,
+  "company": "WalkMe",
+  "email": "community@walkme.com",
+  "lang": "he",
+  "day": 2
+ },
+ {
+  "seq": 19,
+  "src_row": 23,
+  "company": "Kaltura",
+  "email": "community@kaltura.com",
+  "lang": "he",
+  "day": 2
+ },
+ {
+  "seq": 20,
+  "src_row": 24,
+  "company": "Papaya Global",
+  "email": "press@papayapay.com",
+  "lang": "he",
+  "day": 2
+ },
+ {
+  "seq": 21,
+  "src_row": 26,
+  "company": "Tipalti",
+  "email": "communications@tipalti.com",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 22,
+  "src_row": 31,
+  "company": "Camtek",
+  "email": "Info@camtek.com",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 23,
+  "src_row": 33,
+  "company": "Applied Materials",
+  "email": "community_affairs@amat.com",
+  "lang": "en",
+  "day": 3
+ },
+ {
+  "seq": 24,
+  "src_row": 36,
+  "company": "NVIDIA (Mellanox)",
+  "email": "press@nvidia.com",
+  "lang": "en",
+  "day": 3
+ },
+ {
+  "seq": 25,
+  "src_row": 39,
+  "company": "Arbe Robotics",
+  "email": "info@arberobotics.com",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 26,
+  "src_row": 40,
+  "company": "Innoviz Technologies",
+  "email": "investors@innoviz-tech.com",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 27,
+  "src_row": 41,
+  "company": "Ottopia",
+  "email": "info@ottopia.tech",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 28,
+  "src_row": 42,
+  "company": "Aeronautics Ltd",
+  "email": "info@aeronautics-sys.com",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 29,
+  "src_row": 43,
+  "company": "Controp",
+  "email": "info@controp.com",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 30,
+  "src_row": 48,
+  "company": "Roboteam",
+  "email": "Info@robo-team.com",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 31,
+  "src_row": 52,
+  "company": "AndyMark",
+  "email": "customerservice@andymark.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 32,
+  "src_row": 53,
+  "company": "VEX Robotics",
+  "email": "sales@vexrobotics.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 33,
+  "src_row": 54,
+  "company": "West Coast Products (WCP)",
+  "email": "support@wcproducts.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 34,
+  "src_row": 55,
+  "company": "ServoCity",
+  "email": "marketing@servocity.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 35,
+  "src_row": 57,
+  "company": "Swerve Drive Specialties",
+  "email": "info@sdsrobotics.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 36,
+  "src_row": 58,
+  "company": "Cross The Road Electronics (CTRE)",
+  "email": "support@crosstheroadelectronics.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 37,
+  "src_row": 63,
+  "company": "Digi-Key",
+  "email": "customer.service@digikey.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 38,
+  "src_row": 65,
+  "company": "RS Components Israel",
+  "email": "sales@rsisrael.co.il",
+  "lang": "he",
+  "day": 4
+ },
+ {
+  "seq": 39,
+  "src_row": 67,
+  "company": "Ultimaker",
+  "email": "info@ultimaker.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 40,
+  "src_row": 68,
+  "company": "Formlabs",
+  "email": "accessinitiative@formlabs.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 41,
+  "src_row": 69,
+  "company": "Raise3D",
+  "email": "inquiry@raise3d.com",
+  "lang": "en",
+  "day": 5
+ },
+ {
+  "seq": 42,
+  "src_row": 70,
+  "company": "Anycubic",
+  "email": "official@anycubic.com",
+  "lang": "en",
+  "day": 5
+ },
+ {
+  "seq": 43,
+  "src_row": 71,
+  "company": "Elegoo",
+  "email": "3dp@elegoo.com",
+  "lang": "en",
+  "day": 5
+ },
+ {
+  "seq": 44,
+  "src_row": 72,
+  "company": "Snapmaker",
+  "email": "support@snapmaker.com",
+  "lang": "en",
+  "day": 5
+ },
+ {
+  "seq": 45,
+  "src_row": 75,
+  "company": "Nano Dimension",
+  "email": "press@nano-di.com",
+  "lang": "he",
+  "day": 5
+ },
+ {
+  "seq": 46,
+  "src_row": 76,
+  "company": "Seeed Studio",
+  "email": "fusion@seeed.io",
+  "lang": "en",
+  "day": 5
+ },
+ {
+  "seq": 47,
+  "src_row": 77,
+  "company": "Eurocircuits",
+  "email": "euro@eurocircuits.com",
+  "lang": "en",
+  "day": 5
+ },
+ {
+  "seq": 48,
+  "src_row": 81,
+  "company": "Festo Israel",
+  "email": "info@il.festo.com",
+  "lang": "he",
+  "day": 5
+ },
+ {
+  "seq": 49,
+  "src_row": 82,
+  "company": "SMC Israel",
+  "email": "office@smc-il.com",
+  "lang": "he",
+  "day": 5
+ },
+ {
+  "seq": 50,
+  "src_row": 84,
+  "company": "ODrive Robotics",
+  "email": "info@odriverobotics.com",
+  "lang": "en",
+  "day": 5
+ },
+ {
+  "seq": 51,
+  "src_row": 87,
+  "company": "ABB Israel",
+  "email": "contact@il.abb.com",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 52,
+  "src_row": 105,
+  "company": "019 Mobile",
+  "email": "info@019mobile.co.il",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 53,
+  "src_row": 107,
+  "company": "Aroma Espresso Bar",
+  "email": "noamgd@aroma.co.il",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 54,
+  "src_row": 120,
+  "company": "UPS Israel",
+  "email": "wecare@ups.co.il",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 55,
+  "src_row": 123,
+  "company": "Trump Foundation",
+  "email": "Info@trump.org.il",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 56,
+  "src_row": 124,
+  "company": "Landa Labs / Landa Group",
+  "email": "team@landanano.com",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 57,
+  "src_row": 125,
+  "company": "UBTECH Robotics",
+  "email": "pr@ubtrobot.com",
+  "lang": "en",
+  "day": 6
+ },
+ {
+  "seq": 58,
+  "src_row": 127,
+  "company": "Duracell Israel (Diplomat)",
+  "email": "Info_dil@diplomat-global.com",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 59,
+  "src_row": 129,
+  "company": "Optibus",
+  "email": "press@optibus.com",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 60,
+  "src_row": 130,
+  "company": "Guesty",
+  "email": "press@guesty.com",
+  "lang": "he",
+  "day": 6
+ },
+ {
+  "seq": 61,
+  "src_row": 134,
+  "company": "Cybereason",
+  "email": "press@cybereason.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 62,
+  "src_row": 135,
+  "company": "Armis Security",
+  "email": "pr@armis.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 63,
+  "src_row": 137,
+  "company": "Personetics",
+  "email": "info@personetics.com",
+  "lang": "he",
+  "day": 7
+ },
+ {
+  "seq": 64,
+  "src_row": 138,
+  "company": "Vast Data",
+  "email": "press@vastdata.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 65,
+  "src_row": 139,
+  "company": "Redis",
+  "email": "press@redis.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 66,
+  "src_row": 145,
+  "company": "Peopoly",
+  "email": "contact@peopoly.net",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 67,
+  "src_row": 148,
+  "company": "Polycase",
+  "email": "sales@polycase.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 68,
+  "src_row": 1,
+  "company": "Mobileye",
+  "email": "justin.hyde@mobileye.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 69,
+  "src_row": 3,
+  "company": "Monday.com",
+  "email": "tiffanigi@monday.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 70,
+  "src_row": 9,
+  "company": "JFrog",
+  "email": "siobhanL@jfrog.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 71,
+  "src_row": 19,
+  "company": "Lightricks",
+  "email": "press@lightricks.com",
+  "lang": "he",
+  "day": 8
+ },
+ {
+  "seq": 72,
+  "src_row": 25,
+  "company": "Next Insurance",
+  "email": "pr@nextinsurance.com",
+  "lang": "he",
+  "day": 8
+ },
+ {
+  "seq": 73,
+  "src_row": 27,
+  "company": "HoneyBook",
+  "email": "christina.taylor@honeybook.com",
+  "lang": "en",
+  "day": 8
+ },
+ {
+  "seq": 74,
+  "src_row": 28,
+  "company": "Verint Systems",
+  "email": "andrea.barnett@verint.com",
+  "lang": "en",
+  "day": 8
+ },
+ {
+  "seq": 75,
+  "src_row": 32,
+  "company": "KLA",
+  "email": "michael.dulin@kla.com",
+  "lang": "en",
+  "day": 8
+ },
+ {
+  "seq": 76,
+  "src_row": 44,
+  "company": "BIRD Aerosystems",
+  "email": "info@birdaero.com",
+  "lang": "he",
+  "day": 8
+ },
+ {
+  "seq": 77,
+  "src_row": 50,
+  "company": "Sandvik",
+  "email": "info.group@sandvik.com",
+  "lang": "en",
+  "day": 8
+ },
+ {
+  "seq": 78,
+  "src_row": 60,
+  "company": "Studica",
+  "email": "frankn@studica.com",
+  "lang": "en",
+  "day": 8
+ },
+ {
+  "seq": 79,
+  "src_row": 62,
+  "company": "Misumi",
+  "email": "inquire@misumiusa.com",
+  "lang": "en",
+  "day": 8
+ },
+ {
+  "seq": 80,
+  "src_row": 64,
+  "company": "Mouser Electronics",
+  "email": "Kelly.DeGarmo@mouser.com",
+  "lang": "en",
+  "day": 8
+ },
+ {
+  "seq": 81,
+  "src_row": 66,
+  "company": "Farnell / Newark",
+  "email": "heather.vana@avnet.com",
+  "lang": "en",
+  "day": 9
+ },
+ {
+  "seq": 82,
+  "src_row": 79,
+  "company": "Advanced Circuits",
+  "email": "sales@4pcb.com",
+  "lang": "en",
+  "day": 9
+ },
+ {
+  "seq": 83,
+  "src_row": 80,
+  "company": "Sunstone Circuits",
+  "email": "support@sunstone.com",
+  "lang": "en",
+  "day": 9
+ },
+ {
+  "seq": 84,
+  "src_row": 83,
+  "company": "Maxon Motor Israel",
+  "email": "sales.il@maxongroup.com",
+  "lang": "he",
+  "day": 9
+ },
+ {
+  "seq": 85,
+  "src_row": 104,
+  "company": "HOT Mobile",
+  "email": "info@hotmobile.co.il",
+  "lang": "he",
+  "day": 9
+ },
+ {
+  "seq": 86,
+  "src_row": 106,
+  "company": "Golan Telecom",
+  "email": "tpniyot@golantelecom.co.il",
+  "lang": "he",
+  "day": 9
+ },
+ {
+  "seq": 87,
+  "src_row": 114,
+  "company": "Rami Levy",
+  "email": "sherut@rami-levy.co.il",
+  "lang": "he",
+  "day": 9
+ },
+ {
+  "seq": 88,
+  "src_row": 115,
+  "company": "Victory Supermarkets",
+  "email": "sherut.victory@victory1.co.il",
+  "lang": "he",
+  "day": 9
+ },
+ {
+  "seq": 89,
+  "src_row": 116,
+  "company": "Yochananof",
+  "email": "service@yochananof.co.il",
+  "lang": "he",
+  "day": 9
+ },
+ {
+  "seq": 90,
+  "src_row": 119,
+  "company": "DHL Israel",
+  "email": "ilcs@dhl.com",
+  "lang": "he",
+  "day": 9
+ },
+ {
+  "seq": 91,
+  "src_row": 122,
+  "company": "Rashi Foundation",
+  "email": "rf@rashi.org.il",
+  "lang": "he",
+  "day": 10
+ },
+ {
+  "seq": 92,
+  "src_row": 133,
+  "company": "Global-E",
+  "email": "info@global-e.com",
+  "lang": "he",
+  "day": 10
+ },
+ {
+  "seq": 93,
+  "src_row": 146,
+  "company": "Chitubox",
+  "email": "support@chitubox.com",
+  "lang": "en",
+  "day": 10
+ },
+ {
+  "seq": 94,
+  "src_row": 147,
+  "company": "SainSmart",
+  "email": "support@sainsmart.com",
+  "lang": "en",
+  "day": 10
+ }
+]

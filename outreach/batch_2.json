@@ -1,0 +1,162 @@
+[
+ {
+  "seq": 21,
+  "src_row": 26,
+  "company": "Tipalti",
+  "email": "communications@tipalti.com",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 22,
+  "src_row": 31,
+  "company": "Camtek",
+  "email": "Info@camtek.com",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 23,
+  "src_row": 33,
+  "company": "Applied Materials",
+  "email": "community_affairs@amat.com",
+  "lang": "en",
+  "day": 3
+ },
+ {
+  "seq": 24,
+  "src_row": 36,
+  "company": "NVIDIA (Mellanox)",
+  "email": "press@nvidia.com",
+  "lang": "en",
+  "day": 3
+ },
+ {
+  "seq": 25,
+  "src_row": 39,
+  "company": "Arbe Robotics",
+  "email": "info@arberobotics.com",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 26,
+  "src_row": 40,
+  "company": "Innoviz Technologies",
+  "email": "investors@innoviz-tech.com",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 27,
+  "src_row": 41,
+  "company": "Ottopia",
+  "email": "info@ottopia.tech",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 28,
+  "src_row": 42,
+  "company": "Aeronautics Ltd",
+  "email": "info@aeronautics-sys.com",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 29,
+  "src_row": 43,
+  "company": "Controp",
+  "email": "info@controp.com",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 30,
+  "src_row": 48,
+  "company": "Roboteam",
+  "email": "Info@robo-team.com",
+  "lang": "he",
+  "day": 3
+ },
+ {
+  "seq": 31,
+  "src_row": 52,
+  "company": "AndyMark",
+  "email": "customerservice@andymark.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 32,
+  "src_row": 53,
+  "company": "VEX Robotics",
+  "email": "sales@vexrobotics.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 33,
+  "src_row": 54,
+  "company": "West Coast Products (WCP)",
+  "email": "support@wcproducts.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 34,
+  "src_row": 55,
+  "company": "ServoCity",
+  "email": "marketing@servocity.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 35,
+  "src_row": 57,
+  "company": "Swerve Drive Specialties",
+  "email": "info@sdsrobotics.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 36,
+  "src_row": 58,
+  "company": "Cross The Road Electronics (CTRE)",
+  "email": "support@crosstheroadelectronics.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 37,
+  "src_row": 63,
+  "company": "Digi-Key",
+  "email": "customer.service@digikey.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 38,
+  "src_row": 65,
+  "company": "RS Components Israel",
+  "email": "sales@rsisrael.co.il",
+  "lang": "he",
+  "day": 4
+ },
+ {
+  "seq": 39,
+  "src_row": 67,
+  "company": "Ultimaker",
+  "email": "info@ultimaker.com",
+  "lang": "en",
+  "day": 4
+ },
+ {
+  "seq": 40,
+  "src_row": 68,
+  "company": "Formlabs",
+  "email": "accessinitiative@formlabs.com",
+  "lang": "en",
+  "day": 4
+ }
+]

@@ -1,0 +1,162 @@
+[
+ {
+  "seq": 61,
+  "src_row": 134,
+  "company": "Cybereason",
+  "email": "press@cybereason.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 62,
+  "src_row": 135,
+  "company": "Armis Security",
+  "email": "pr@armis.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 63,
+  "src_row": 137,
+  "company": "Personetics",
+  "email": "info@personetics.com",
+  "lang": "he",
+  "day": 7
+ },
+ {
+  "seq": 64,
+  "src_row": 138,
+  "company": "Vast Data",
+  "email": "press@vastdata.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 65,
+  "src_row": 139,
+  "company": "Redis",
+  "email": "press@redis.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 66,
+  "src_row": 145,
+  "company": "Peopoly",
+  "email": "contact@peopoly.net",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 67,
+  "src_row": 148,
+  "company": "Polycase",
+  "email": "sales@polycase.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 68,
+  "src_row": 1,
+  "company": "Mobileye",
+  "email": "justin.hyde@mobileye.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 69,
+  "src_row": 3,
+  "company": "Monday.com",
+  "email": "tiffanigi@monday.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 70,
+  "src_row": 9,
+  "company": "JFrog",
+  "email": "siobhanL@jfrog.com",
+  "lang": "en",
+  "day": 7
+ },
+ {
+  "seq": 71,
+  "src_row": 19,
+  "company": "Lightricks",
+  "email": "press@lightricks.com",
+  "lang": "he",
+  "day": 8
+ },
+ {
+  "seq": 72,
+  "src_row": 25,
+  "company": "Next Insurance",
+  "email": "pr@nextinsurance.com",
+  "lang": "he",
+  "day": 8
+ },
+ {
+  "seq": 73,
+  "src_row": 27,
+  "company": "HoneyBook",
+  "email": "christina.taylor@honeybook.com",
+  "lang": "en",
+  "day": 8
+ },
+ {
+  "seq": 74,
+  "src_row": 28,
+  "company": "Verint Systems",
+  "email": "andrea.barnett@verint.com",
+  "lang": "en",
+  "day": 8
+ },
+ {
+  "seq": 75,
+  "src_row": 32,
+  "company": "KLA",
+  "email": "michael.dulin@kla.com",
+  "lang": "en",
+  "day": 8
+ },
+ {
+  "seq": 76,
+  "src_row": 44,
+  "company": "BIRD Aerosystems",
+  "email": "info@birdaero.com",
+  "lang": "he",
+  "day": 8
+ },
+ {
+  "seq": 77,
+  "src_row": 50,
+  "company": "Sandvik",
+  "email": "info.group@sandvik.com",
+  "lang": "en",
+  "day": 8
+ },
+ {
+  "seq": 78,
+  "src_row": 60,
+  "company": "Studica",
+  "email": "frankn@studica.com",
+  "lang": "en",
+  "day": 8
+ },
+ {
+  "seq": 79,
+  "src_row": 62,
+  "company": "Misumi",
+  "email": "inquire@misumiusa.com",
+  "lang": "en",
+  "day": 8
+ },
+ {
+  "seq": 80,
+  "src_row": 64,
+  "company": "Mouser Electronics",
+  "email": "Kelly.DeGarmo@mouser.com",
+  "lang": "en",
+  "day": 8
+ }
+]
