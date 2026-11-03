@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PinkShade</title>
+<style>
+  :root {
+    --top: #4A0A5A;
+    --bottom: #E050F0;
+    --heading: #F3C6FA;
+    --body: #FFF5FC;
+    --muted: #F1D9FA;
+    --accent: #FFC59E;   /* warm apricot: complements the purple-to-pink gradient */
+    --ink: #2A0630;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; background: #1a0220; overflow: hidden; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--body);
+    display: flex; align-items: center; justify-content: center;
+  }
+  #stage { width: 1600px; height: 900px; position: absolute; left: 50%; top: 50%; transform-origin: center center; }
+  .slide {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, var(--top) 0%, var(--bottom) 100%);
+    padding: 64px 88px 72px; display: flex; flex-direction: column;
+    opacity: 0; visibility: hidden; transition: opacity .45s ease, visibility .45s; overflow: hidden;
+  }
+  .slide.active { opacity: 1; visibility: visible; }
+
+  .top { display: flex; justify-content: space-between; align-items: flex-start; }
+  .logo { display: flex; align-items: center; gap: 22px; }
+  .logo-mark {
+    width: 92px; height: 80px; border-radius: 18px;
+    background: linear-gradient(135deg, #FF4FA8 0%, #F06BC8 55%, #FFC59E 100%);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 900; font-size: 44px; letter-spacing: -2px; color: #fff;
+  }
+  .logo-label { font-weight: 800; font-size: 22px; letter-spacing: 3px; color: var(--heading); }
+  .tag { text-align: right; line-height: 1.35; }
+  .tag b { display: block; font-size: 20px; letter-spacing: 2px; color: var(--heading); }
+  .tag span { font-size: 18px; color: var(--muted); }
+
+  .content { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+  h1 { font-size: 84px; line-height: .95; font-weight: 900; letter-spacing: -1px; color: var(--heading); text-transform: uppercase; margin-bottom: 30px; }
+  .lead { font-size: 27px; line-height: 1.45; max-width: 1000px; color: var(--body); }
+  .accent { color: var(--accent); }
+
+  .row { display: flex; gap: 60px; align-items: center; }
+  .grow { flex: 1; }
+
+  ul.points { list-style: none; margin-top: 34px; display: flex; flex-direction: column; gap: 16px; }
+  ul.points li { font-size: 26px; display: flex; align-items: center; gap: 18px; font-weight: 500; }
+  ul.points li::before { content: ""; width: 14px; height: 14px; border-radius: 50%; background: var(--heading); flex: none; }
+  ul.points li.hl::before { background: var(--accent); }
+
+  .cols { display: grid; gap: 28px; margin-top: 40px; }
+  .cols.c3 { grid-template-columns: repeat(3, 1fr); }
+  .cols.c4 { grid-template-columns: repeat(4, 1fr); }
+  .card { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.22); border-radius: 20px; padding: 30px 30px 32px; }
+  .card h3 { font-size: 22px; letter-spacing: 2px; color: var(--heading); margin: 18px 0 10px; font-weight: 800; }
+  .card p { font-size: 20px; line-height: 1.45; color: var(--body); }
+  .card.hl { border-color: var(--accent); }
+  .card.hl h3 { color: var(--accent); }
+  .card svg { display: block; }
+
+  .badge { display: inline-block; font-size: 14px; font-weight: 800; letter-spacing: 2px; color: var(--ink); background: var(--accent); padding: 5px 11px; border-radius: 999px; margin-top: 16px; }
+
+  .chev { position: absolute; right: 88px; top: 50%; transform: translateY(-50%); font-size: 150px; font-weight: 300; color: var(--heading); line-height: 1; }
+
+  .title-wrap { flex: 1; display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; }
+  .title-big { font-size: 250px; line-height: .82; font-weight: 900; letter-spacing: -8px; color: var(--heading); margin-bottom: -6px; }
+  .title-sub { font-size: 36px; line-height: 1.3; max-width: 470px; color: var(--muted); padding-bottom: 20px; font-weight: 300; }
+  .title-sub .accent { font-weight: 600; }
+
+  .thanks { font-size: 200px; line-height: .85; font-weight: 900; letter-spacing: -6px; color: var(--heading); }
+  .q { font-size: 56px; font-weight: 300; margin-top: 26px; color: var(--body); }
+  .contact { margin-top: 40px; display: inline-flex; align-items: center; gap: 16px; font-size: 28px; padding: 16px 28px; border-radius: 999px; border: 2px solid var(--accent); color: var(--accent); font-weight: 600; width: fit-content; }
+
+  .disclaimer-foot { font-size: 20px; color: var(--body); letter-spacing: .3px; border-top: 1px solid rgba(255,255,255,.35); padding-top: 18px; }
+
+  .count { position: absolute; left: 88px; bottom: 26px; font-size: 15px; letter-spacing: 3px; color: rgba(255,255,255,.75); font-weight: 600; }
+  .count i { font-style: normal; color: var(--accent); }
+
+  #progress { position: fixed; left: 0; bottom: 0; height: 4px; background: var(--accent); transition: width .35s ease; z-index: 5; }
+  #hint { position: fixed; right: 16px; bottom: 12px; font-size: 12px; color: rgba(255,255,255,.55); letter-spacing: 1px; z-index: 5; transition: opacity .6s; }
+</style>
+</head>
+<body>
+
+<div id="stage">
+
+  <!-- 1 TITLE -->
+  <section class="slide">
+    <div class="top">
+      <div class="logo"><div class="logo-mark">PS</div><div class="logo-label">PINKSHADE</div></div>
+      <div class="tag"><b>FIRST STAGE PROCESS</b><span>PinkShade presentation</span></div>
+    </div>
+    <div class="chev" style="top:42%">&#x203A;</div>
+    <div class="title-wrap">
+      <h1 class="title-big" style="text-transform:none">Pink<br>Shade</h1>
+      <p class="title-sub">See your surroundings with a <span class="accent">little more warmth.</span></p>
+    </div>
+  </section>
+
+  <!-- 2 PROBLEM -->
+  <section class="slide">
+    <div class="top">
+      <div class="logo"><div class="logo-mark">PS</div><div class="logo-label">PINKSHADE</div></div>
+      <div class="tag"><b>01 &middot; CONTEXT</b><span>The everyday view</span></div>
+    </div>
+    <div class="content">
+      <div class="row">
+        <div class="grow">
+          <h1>The Problem</h1>
+          <p class="lead">Many of us spend most of the day in harsh, flat light: fluorescent offices, glowing screens, and grey winter mornings. Our visual environment is the one thing we see all day, yet we rarely think about how it looks.</p>
+          <ul class="points">
+            <li>Long hours under harsh indoor light</li>
+            <li>Screens and glare all day</li>
+            <li class="hl">Cold, washed-out colour</li>
+          </ul>
+        </div>
+        <svg width="380" height="380" viewBox="0 0 380 380" aria-hidden="true">
+          <defs>
+            <linearGradient id="warm" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#FFC2E4"/><stop offset="1" stop-color="#E050F0"/>
+            </linearGradient>
+          </defs>
+          <rect x="20" y="40" width="220" height="220" rx="24" fill="#9C93A0" opacity=".75"/>
+          <rect x="45" y="70" width="170" height="14" rx="7" fill="#C9C3CC"/>
+          <rect x="45" y="100" width="120" height="14" rx="7" fill="#C9C3CC"/>
+          <rect x="45" y="190" width="170" height="44" rx="10" fill="#B6AFB9"/>
+          <circle cx="250" cy="250" r="110" fill="url(#warm)" opacity=".95"/>
+          <circle cx="250" cy="250" r="110" fill="none" stroke="#F3C6FA" stroke-width="6"/>
+          <circle cx="250" cy="250" r="72" fill="none" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="3"/>
+        </svg>
+      </div>
+    </div>
+    <div class="count">02 <i>/</i> 08</div>
+  </section>
+
+  <!-- 3 OPTIONS -->
+  <section class="slide">
+    <div class="top">
+      <div class="logo"><div class="logo-mark">PS</div><div class="logo-label">PINKSHADE</div></div>
+      <div class="tag"><b>02 &middot; FORMATS</b><span>Options being explored</span></div>
+    </div>
+    <div class="content">
+      <h1>Three Ways to Try It</h1>
+      <p class="lead">We are exploring three formats for the same idea: a warm, vibrant tint on everyday glasses. Each one trades off simplicity, cost, and how long it lasts.</p>
+      <div class="cols c3">
+        <div class="card hl">
+          <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M12 8h30l10 10v38H12z" fill="none" stroke="#FFC59E" stroke-width="4" stroke-linejoin="round"/>
+            <path d="M42 8v10h10" fill="none" stroke="#FFC59E" stroke-width="4" stroke-linejoin="round"/>
+          </svg>
+          <h3>ADHESIVE FILM</h3>
+          <p>A thin optical film cut to fit and pressed onto the lens. Simplest and lowest cost.</p>
+          <span class="badge">TESTING FIRST</span>
+        </div>
+        <div class="card">
+          <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M20 54V18a12 12 0 0 1 24 0v30a7 7 0 0 1-14 0V22" fill="none" stroke="#F3C6FA" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+          <h3>CLIP-ON</h3>
+          <p>A tinted attachment that clips onto existing frames. Reusable across frames, but more parts to fit and handle.</p>
+        </div>
+        <div class="card">
+          <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+            <ellipse cx="32" cy="32" rx="24" ry="20" fill="none" stroke="#F3C6FA" stroke-width="4"/>
+            <path d="M20 26a14 12 0 0 1 10-8" fill="none" stroke="#F3C6FA" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+          <h3>CUSTOM LENS TINT</h3>
+          <p>A tint built into the lens with a manufacturing partner. Most durable, longest timeline, a later-stage option.</p>
+        </div>
+      </div>
+    </div>
+    <div class="count">03 <i>/</i> 08</div>
+  </section>
+
+  <!-- 4 WHO IT'S FOR (replaces the film-only slide) -->
+  <section class="slide">
+    <div class="top">
+      <div class="logo"><div class="logo-mark">PS</div><div class="logo-label">PINKSHADE</div></div>
+      <div class="tag"><b>03 &middot; AUDIENCE</b><span>Who we're building for</span></div>
+    </div>
+    <div class="content">
+      <h1>Who It's For</h1>
+      <p class="lead">People who already wear glasses, or are open to them, and want their day to look and feel a little warmer. Our first market is <span class="accent">Israel</span>.</p>
+      <div class="cols c3">
+        <div class="card hl">
+          <svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true"><rect x="6" y="10" width="44" height="28" rx="4" fill="none" stroke="#FFC59E" stroke-width="4"/><path d="M18 48h20M28 38v10" stroke="#FFC59E" stroke-width="4" stroke-linecap="round"/></svg>
+          <h3>SCREEN-HEAVY DAYS</h3>
+          <p>Students, office workers and creators who spend hours in front of bright, flat screens.</p>
+        </div>
+        <div class="card">
+          <svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true"><circle cx="20" cy="28" r="12" fill="none" stroke="#F3C6FA" stroke-width="4"/><circle cx="38" cy="28" r="12" fill="none" stroke="#F3C6FA" stroke-width="4"/></svg>
+          <h3>EVERYDAY GLASSES WEARERS</h3>
+          <p>People who already wear glasses and want a simple way to add colour without buying a new pair.</p>
+        </div>
+        <div class="card">
+          <svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true"><path d="M28 6l5 15h16l-13 9 5 16-13-10-13 10 5-16-13-9h16z" fill="none" stroke="#F3C6FA" stroke-width="4" stroke-linejoin="round"/></svg>
+          <h3>STYLE-LED EARLY ADOPTERS</h3>
+          <p>Trend-aware people who like a distinctive, expressive look and enjoy trying new things first.</p>
+        </div>
+      </div>
+    </div>
+    <div class="count">04 <i>/</i> 08</div>
+  </section>
+
+  <!-- 5 WHY IT MATTERS -->
+  <section class="slide">
+    <div class="top">
+      <div class="logo"><div class="logo-mark">PS</div><div class="logo-label">PINKSHADE</div></div>
+      <div class="tag"><b>04 &middot; VALUES</b><span>What we're designing for</span></div>
+    </div>
+    <div class="content">
+      <h1>Why It Matters</h1>
+      <p class="lead">The right format is the one that fits into an ordinary day without effort.</p>
+      <div class="cols c4">
+        <div class="card">
+          <svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="18" fill="none" stroke="#F3C6FA" stroke-width="4"/></svg>
+          <h3>SIMPLE</h3><p>Designed around the glasses you already own.</p>
+        </div>
+        <div class="card">
+          <svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true"><rect x="8" y="8" width="18" height="18" rx="4" fill="none" stroke="#F3C6FA" stroke-width="4"/><rect x="30" y="8" width="18" height="18" rx="9" fill="none" stroke="#F3C6FA" stroke-width="4"/><path d="M17 31l10 17H7z" fill="none" stroke="#F3C6FA" stroke-width="4" stroke-linejoin="round"/></svg>
+          <h3>FLEXIBLE</h3><p>We're testing which format fits daily life best.</p>
+        </div>
+        <div class="card">
+          <svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true"><path d="M8 40h40M14 40V26M28 40V16M42 40V30" fill="none" stroke="#F3C6FA" stroke-width="4" stroke-linecap="round"/></svg>
+          <h3>ACCESSIBLE</h3><p>A low-cost daily accessory. Target price still being tested.</p>
+        </div>
+        <div class="card hl">
+          <svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true"><path d="M28 6l5 15h16l-13 9 5 16-13-10-13 10 5-16-13-9h16z" fill="none" stroke="#FFC59E" stroke-width="4" stroke-linejoin="round"/></svg>
+          <h3>AESTHETIC</h3><p>Adds colour and depth to how the world looks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="count">05 <i>/</i> 08</div>
+  </section>
+
+  <!-- 6 WHERE WE ARE -->
+  <section class="slide">
+    <div class="top">
+      <div class="logo"><div class="logo-mark">PS</div><div class="logo-label">PINKSHADE</div></div>
+      <div class="tag"><b>05 &middot; STATUS</b><span>Early development</span></div>
+    </div>
+    <div class="content">
+      <div class="row">
+        <div class="grow">
+          <h1>Where We Are</h1>
+          <p class="lead">We're in early development, testing the adhesive film first and listening to people about how they see their day.</p>
+          <ul class="points">
+            <li>Testing film samples</li>
+            <li>Talking with potential users</li>
+            <li class="hl">Deciding which format to build</li>
+          </ul>
+        </div>
+        <svg width="360" height="360" viewBox="0 0 360 360" aria-hidden="true">
+          <circle cx="180" cy="180" r="140" fill="none" stroke="#F3C6FA" stroke-opacity=".3" stroke-width="22"/>
+          <circle cx="180" cy="180" r="140" fill="none" stroke="#FFC59E" stroke-width="22"
+                  stroke-dasharray="180 700" stroke-linecap="round" transform="rotate(-90 180 180)"/>
+          <text x="180" y="172" text-anchor="middle" font-size="26" font-weight="800" fill="#F3C6FA" letter-spacing="3">STAGE</text>
+          <text x="180" y="226" text-anchor="middle" font-size="64" font-weight="900" fill="#FFFFFF">01</text>
+        </svg>
+      </div>
+    </div>
+    <div class="count">06 <i>/</i> 08</div>
+  </section>
+
+  <!-- 7 THANK YOU -->
+  <section class="slide">
+    <div class="top">
+      <div class="logo"><div class="logo-mark">PS</div><div class="logo-label">PINKSHADE</div></div>
+      <div class="tag"><b>FIRST STAGE PROCESS</b><span>PinkShade presentation</span></div>
+    </div>
+    <div class="content">
+      <h1 class="thanks">THANK<br>YOU</h1>
+      <p class="q">Questions?</p>
+      <div class="contact">
+        <svg width="28" height="22" viewBox="0 0 28 22" aria-hidden="true"><rect x="2" y="2" width="24" height="18" rx="3" fill="none" stroke="#FFC59E" stroke-width="2.5"/><path d="M3 4l11 8 11-8" fill="none" stroke="#FFC59E" stroke-width="2.5"/></svg>
+        pinkshade.co.il@gmail.com
+      </div>
+    </div>
+    <div class="chev">&#x203A;</div>
+    <div class="count">07 <i>/</i> 08</div>
+  </section>
+
+  <!-- 8 DISCLAIMER -->
+  <section class="slide">
+    <div class="top">
+      <div class="logo"><div class="logo-mark">PS</div><div class="logo-label">PINKSHADE</div></div>
+      <div class="tag"><b>REFERENCE</b><span>Disclaimer</span></div>
+    </div>
+    <div class="content">
+      <svg width="180" height="120" viewBox="0 0 180 120" aria-hidden="true" style="opacity:.85">
+        <circle cx="48" cy="60" r="38" fill="none" stroke="#F3C6FA" stroke-width="7"/>
+        <circle cx="132" cy="60" r="38" fill="none" stroke="#F3C6FA" stroke-width="7"/>
+        <path d="M86 58q4-8 8 0" fill="none" stroke="#F3C6FA" stroke-width="7" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <p class="disclaimer-foot"><span class="accent">&#9679;</span>&nbsp; PinkShade is a cosmetic accessory, not a medical device.</p>
+  </section>
+
+</div>
+
+<div id="progress"></div>
+<div id="hint">&larr; &rarr; to navigate</div>
+
+<script>
+  (function () {
+    var slides = document.querySelectorAll('.slide');
+    var stage = document.getElementById('stage');
+    var bar = document.getElementById('progress');
+    var hint = document.getElementById('hint');
+    var i = 0;
+    function fromHash() { var n = parseInt(location.hash.replace('#', ''), 10); return (n >= 1 && n <= slides.length) ? n - 1 : 0; }
+    function show(n) {
+      i = Math.max(0, Math.min(slides.length - 1, n));
+      slides.forEach(function (s, k) { s.classList.toggle('active', k === i); });
+      bar.style.width = ((i + 1) / slides.length * 100) + '%';
+      if (location.hash !== '#' + (i + 1)) history.replaceState(null, '', '#' + (i + 1));
+    }
+    function fit() { var s = Math.min(window.innerWidth / 1600, window.innerHeight / 900); stage.style.transform = 'translate(-50%, -50%) scale(' + s + ')'; }
+    document.addEventListener('keydown', function (e) {
+      if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].indexOf(e.key) > -1) { e.preventDefault(); show(i + 1); }
+      else if (['ArrowLeft', 'ArrowUp', 'PageUp'].indexOf(e.key) > -1) { e.preventDefault(); show(i - 1); }
+      else if (e.key === 'Home') show(0);
+      else if (e.key === 'End') show(slides.length - 1);
+      else if (e.key === 'f' || e.key === 'F') {
+        if (!document.fullscreenElement) document.documentElement.requestFullscreen && document.documentElement.requestFullscreen();
+        else document.exitFullscreen && document.exitFullscreen();
+      }
+      hint.style.opacity = 0;
+    });
+    document.addEventListener('click', function (e) { if (e.clientX > window.innerWidth / 2) show(i + 1); else show(i - 1); });
+    window.addEventListener('resize', fit);
+    window.addEventListener('hashchange', function () { show(fromHash()); });
+    fit(); show(fromHash());
+    setTimeout(function () { hint.style.opacity = 0; }, 4000);
+  })();
+</script>
+</body>
+</html>
