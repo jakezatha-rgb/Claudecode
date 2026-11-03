@@ -11,7 +11,8 @@
     --heading: #F3C6FA;
     --body: #FFF5FC;
     --muted: #F1D9FA;
-    --accent: #FFC59E;   /* warm apricot: complements the purple-to-pink gradient */
+    --accent: #FF4FA8;       /* hot pink from the logo: fills, borders, bars */
+    --accent-soft: #FFC2E4;  /* pale pink: accent text and icons */
     --ink: #2A0630;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -34,7 +35,7 @@
   .logo { display: flex; align-items: center; gap: 22px; }
   .logo-mark {
     width: 92px; height: 80px; border-radius: 18px;
-    background: linear-gradient(135deg, #FF4FA8 0%, #F06BC8 55%, #FFC59E 100%);
+    background: linear-gradient(135deg, #FF4FA8 0%, #E050F0 100%);
     display: flex; align-items: center; justify-content: center;
     font-weight: 900; font-size: 44px; letter-spacing: -2px; color: #fff;
   }
@@ -46,7 +47,7 @@
   .content { flex: 1; display: flex; flex-direction: column; justify-content: center; }
   h1 { font-size: 84px; line-height: .95; font-weight: 900; letter-spacing: -1px; color: var(--heading); text-transform: uppercase; margin-bottom: 30px; }
   .lead { font-size: 27px; line-height: 1.45; max-width: 1000px; color: var(--body); }
-  .accent { color: var(--accent); }
+  .accent { color: var(--accent-soft); }
 
   .row { display: flex; gap: 60px; align-items: center; }
   .grow { flex: 1; }
@@ -63,10 +64,10 @@
   .card h3 { font-size: 22px; letter-spacing: 2px; color: var(--heading); margin: 18px 0 10px; font-weight: 800; }
   .card p { font-size: 20px; line-height: 1.45; color: var(--body); }
   .card.hl { border-color: var(--accent); }
-  .card.hl h3 { color: var(--accent); }
+  .card.hl h3 { color: var(--accent-soft); }
   .card svg { display: block; }
 
-  .badge { display: inline-block; font-size: 14px; font-weight: 800; letter-spacing: 2px; color: var(--ink); background: var(--accent); padding: 5px 11px; border-radius: 999px; margin-top: 16px; }
+  .badge { display: inline-block; font-size: 14px; font-weight: 800; letter-spacing: 2px; color: #fff; background: var(--accent); padding: 5px 11px; border-radius: 999px; margin-top: 16px; }
 
   .chev { position: absolute; right: 88px; top: 50%; transform: translateY(-50%); font-size: 150px; font-weight: 300; color: var(--heading); line-height: 1; }
 
@@ -77,12 +78,12 @@
 
   .thanks { font-size: 200px; line-height: .85; font-weight: 900; letter-spacing: -6px; color: var(--heading); }
   .q { font-size: 56px; font-weight: 300; margin-top: 26px; color: var(--body); }
-  .contact { margin-top: 40px; display: inline-flex; align-items: center; gap: 16px; font-size: 28px; padding: 16px 28px; border-radius: 999px; border: 2px solid var(--accent); color: var(--accent); font-weight: 600; width: fit-content; }
+  .contact { margin-top: 40px; display: inline-flex; align-items: center; gap: 16px; font-size: 28px; padding: 16px 28px; border-radius: 999px; border: 2px solid var(--accent); color: var(--accent-soft); font-weight: 600; width: fit-content; }
 
   .disclaimer-foot { font-size: 20px; color: var(--body); letter-spacing: .3px; border-top: 1px solid rgba(255,255,255,.35); padding-top: 18px; }
 
   .count { position: absolute; left: 88px; bottom: 26px; font-size: 15px; letter-spacing: 3px; color: rgba(255,255,255,.75); font-weight: 600; }
-  .count i { font-style: normal; color: var(--accent); }
+  .count i { font-style: normal; color: var(--accent-soft); }
 
   #progress { position: fixed; left: 0; bottom: 0; height: 4px; background: var(--accent); transition: width .35s ease; z-index: 5; }
   #hint { position: fixed; right: 16px; bottom: 12px; font-size: 12px; color: rgba(255,255,255,.55); letter-spacing: 1px; z-index: 5; transition: opacity .6s; }
@@ -153,8 +154,8 @@
       <div class="cols c3">
         <div class="card hl">
           <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
-            <path d="M12 8h30l10 10v38H12z" fill="none" stroke="#FFC59E" stroke-width="4" stroke-linejoin="round"/>
-            <path d="M42 8v10h10" fill="none" stroke="#FFC59E" stroke-width="4" stroke-linejoin="round"/>
+            <path d="M12 8h30l10 10v38H12z" fill="none" stroke="#FFC2E4" stroke-width="4" stroke-linejoin="round"/>
+            <path d="M42 8v10h10" fill="none" stroke="#FFC2E4" stroke-width="4" stroke-linejoin="round"/>
           </svg>
           <h3>ADHESIVE FILM</h3>
           <p>A thin optical film cut to fit and pressed onto the lens. Simplest and lowest cost.</p>
@@ -191,7 +192,7 @@
       <p class="lead">People who already wear glasses, or are open to them, and want their day to look and feel a little warmer. Our first market is <span class="accent">Israel</span>.</p>
       <div class="cols c3">
         <div class="card hl">
-          <svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true"><rect x="6" y="10" width="44" height="28" rx="4" fill="none" stroke="#FFC59E" stroke-width="4"/><path d="M18 48h20M28 38v10" stroke="#FFC59E" stroke-width="4" stroke-linecap="round"/></svg>
+          <svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true"><rect x="6" y="10" width="44" height="28" rx="4" fill="none" stroke="#FFC2E4" stroke-width="4"/><path d="M18 48h20M28 38v10" stroke="#FFC2E4" stroke-width="4" stroke-linecap="round"/></svg>
           <h3>SCREEN-HEAVY DAYS</h3>
           <p>Students, office workers and creators who spend hours in front of bright, flat screens.</p>
         </div>
@@ -233,7 +234,7 @@
           <h3>ACCESSIBLE</h3><p>A low-cost daily accessory. Target price still being tested.</p>
         </div>
         <div class="card hl">
-          <svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true"><path d="M28 6l5 15h16l-13 9 5 16-13-10-13 10 5-16-13-9h16z" fill="none" stroke="#FFC59E" stroke-width="4" stroke-linejoin="round"/></svg>
+          <svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true"><path d="M28 6l5 15h16l-13 9 5 16-13-10-13 10 5-16-13-9h16z" fill="none" stroke="#FFC2E4" stroke-width="4" stroke-linejoin="round"/></svg>
           <h3>AESTHETIC</h3><p>Adds colour and depth to how the world looks.</p>
         </div>
       </div>
@@ -260,7 +261,7 @@
         </div>
         <svg width="360" height="360" viewBox="0 0 360 360" aria-hidden="true">
           <circle cx="180" cy="180" r="140" fill="none" stroke="#F3C6FA" stroke-opacity=".3" stroke-width="22"/>
-          <circle cx="180" cy="180" r="140" fill="none" stroke="#FFC59E" stroke-width="22"
+          <circle cx="180" cy="180" r="140" fill="none" stroke="#FF4FA8" stroke-width="22"
                   stroke-dasharray="180 700" stroke-linecap="round" transform="rotate(-90 180 180)"/>
           <text x="180" y="172" text-anchor="middle" font-size="26" font-weight="800" fill="#F3C6FA" letter-spacing="3">STAGE</text>
           <text x="180" y="226" text-anchor="middle" font-size="64" font-weight="900" fill="#FFFFFF">01</text>
@@ -280,7 +281,7 @@
       <h1 class="thanks">THANK<br>YOU</h1>
       <p class="q">Questions?</p>
       <div class="contact">
-        <svg width="28" height="22" viewBox="0 0 28 22" aria-hidden="true"><rect x="2" y="2" width="24" height="18" rx="3" fill="none" stroke="#FFC59E" stroke-width="2.5"/><path d="M3 4l11 8 11-8" fill="none" stroke="#FFC59E" stroke-width="2.5"/></svg>
+        <svg width="28" height="22" viewBox="0 0 28 22" aria-hidden="true"><rect x="2" y="2" width="24" height="18" rx="3" fill="none" stroke="#FFC2E4" stroke-width="2.5"/><path d="M3 4l11 8 11-8" fill="none" stroke="#FFC2E4" stroke-width="2.5"/></svg>
         pinkshade.co.il@gmail.com
       </div>
     </div>
